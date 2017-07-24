@@ -44,7 +44,10 @@ function twitterFunction() { //twitter function
 
         for (var i = 0; i < tweets.length; i++) { //loops through response data
             console.log(tweets[i].text + " created at " + tweets[i].created_at); //console logs result
+            console.log('');
             console.log("(╯°□°）╯︵ ┻━┻)"); //i do not use twitter
+            console.log("┬──┬◡ﾉ(° -°ﾉ)");
+            console.log('');
         }
 
     });
